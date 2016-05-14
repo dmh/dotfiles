@@ -1,0 +1,91 @@
+"*":
+  "exception-reporting":
+    userId: "67c9a20f-d8ff-2427-6e75-7e38aa73d223"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "one-dark-ui"
+      "monokai"
+    ]
+    disabledPackages: [
+      "language-c"
+      "language-csharp"
+      "language-java"
+      "language-objective-c"
+      "language-perl"
+      "es6-javascript"
+      "javascript-snippets"
+      "atom-beautify"
+    ]
+    packagesWithKeymapsDisabled: [
+      "expand-selection-to-quotes"
+    ]
+    openEmptyEditorOnStart: false
+  editor:
+    invisibles: {}
+    showInvisibles: true
+    showIndentGuide: true
+    tabLength: 4
+    scrollPastEnd: true
+    softWrap: true
+    fontSize: 13
+    scrollSensitivity: 100
+    fontFamily: "hack"
+  "autocomplete-plus": {}
+  "es-identifier-highlight": {}
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
+  linter:
+    showErrorTabLine: true
+    statusIconScope: "File"
+    showErrorPanel: false
+  minimap:
+    plugins:
+      "identifier-highlight": true
+      "highlight-selected": true
+  "one-dark-ui":
+    layoutMode: "Compact"
+    fontSize: 12
+  "todo-show":
+    ignoreThesePaths: [
+      "**/temp/"
+      "**/tmp/"
+      "**/big/"
+      "**/small/"
+    ]
+  "git-diff":
+    showIconsInEditorGutter: true
+  "autoclose-html": {}
+  "advanced-new-file":
+    suggestCurrentFilePath: true
+    showFilesInAutoComplete: true
+  emmet: {}
+  "linter-htmlhint": {}
+  "atom-beautify":
+    css_indent_comments: false
+    _analyticsUserId: "dcfc460d-1cef-494b-897e-bdc399f3f13c"
+    html_end_with_newline: true
+    html_indent_inner_html: true
+    html_preserve_newlines: false
+    html_indent_scripts: "keep"
+    beautifyEntireFileOnSave: false
+    analytics: false
+  "toggle-quotes": {}
+  tabs:
+    usePreviewTabs: true
+    enableVcsColoring: true
+    tabScrolling: true
+  "fuzzy-finder": {}
+  "find-and-replace": {}
+  "highlight-line": {}
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+  "tree-view":
+    hideIgnoredNames: true
+  "spell-check": {}
+  "status-bar": {}
+  "file-icons":
+    onChanges: true
+  pigments: {}
+  "js-autoimport": {}

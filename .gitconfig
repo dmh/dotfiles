@@ -1,0 +1,25 @@
+[include]
+  path = ~/.gitconfig.local
+[color]
+  ui = true
+[core]
+  editor = atom-beta
+  autocrlf = input
+  whitespace = trailing-space,space-before-tab
+[color "branch"]
+  current = blue reverse
+  local = blue
+  remote = magenta
+[color "status"]
+  added = green
+  changed = yellow
+  untracked = red
+[push]
+  default = simple
+[merge]
+  conflictstyle = diff3
+  defaultToUpstream = true
+[status]
+  submodulesummary = true
+[column]
+  ui = always

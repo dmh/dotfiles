@@ -1,0 +1,299 @@
+
+
+
+
+atom-text-editor::shadow .selection .region {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+// atom-text-editor.is-focused::shadow .selection .region {
+// background-color: rgba(0, 0, 0, 0.2);
+// background-color: red;
+// background-color: LightGoldenRodYellow;
+    // border: 1px solid red;
+// }
+
+
+
+.atom-text-editor, :host, atom-text-editor, atom-text-editor::shadow {
+  .line.highlight-line {
+    background: rgba(150, 150, 150, 0.1) !important;
+  }
+}
+
+
+atom-text-editor {
+  text-rendering: optimizeLegibility;
+}
+
+
+
+
+
+
+
+
+atom-text-editor::shadow .line {
+    height: 19px;
+}
+// atom-text-editor::shadow .variable.readwrite.js {
+//     // color: #A0D468;
+//     color: #BDD8F1;
+//     color: #C8F0F0;
+//     color: #4CD964;
+// }
+atom-text-editor::shadow .storage.type.function.js, atom-text-editor::shadow .punctuation.definition.parameters.js{
+    color: #2196F3;
+    color: #7FDBFF;
+    color: #0074D9;
+    font-family: monoid-retina, hack, sans-serif;
+    color: #5AC8FA;
+}
+atom-text-editor::shadow .support.function.js{
+    color: #0074D9;
+    color: #5AC8FA;
+
+}
+atom-text-editor::shadow .entity.name.function.js{
+    color: #5AC8FA;
+
+}
+atom-text-editor::shadow .storage.type.arrow.js{
+    color: #5AC8FA !important;
+    // font-weight: 800;
+    font-family: monoid-retina, hack, sans-serif;
+
+}
+atom-text-editor::shadow .meta.brace.round.js{
+    color: #2196F3;
+    color: #5AC8FA;
+    color: #7FDBFF;
+    color: #0074D9;
+    color: #5AC8FA;
+    // font-weight: 800;
+    font-family: monoid-retina, hack, sans-serif;
+}
+atom-text-editor::shadow .meta.brace.square.js{
+    color: #4CD964;
+    font-family: monoid-retina, hack, sans-serif;
+}
+atom-text-editor::shadow .meta.brace.curly.js{
+    // color: #2196F3;
+    // color: #5AC8FA;
+    // color: #7FDBFF;
+    // color: #0074D9;
+        color: #FFCE54;
+        color: #FF9800;
+        color: #FFC107;
+        color: #FFEB3B;
+    // font-weight: 800;
+    font-family: monoid-retina, hack, sans-serif;
+}
+atom-text-editor::shadow .keyword.control.js{
+    font-family: monoid-retina, hack, sans-serif;
+    color: #F012BE;
+    color: #F44336 !important;
+    color: #339933 !important;
+    color: #C0392B !important;
+    color: #E74C3C !important;
+    // color: #E3868F !important;
+    // color: #F79256 !important;
+}
+// atom-text-editor::shadow .constant.language.js{
+    // font-family: monoid-retina, hack, sans-serif;
+    // color: #85144B !important;
+// }
+
+atom-text-editor::shadow .storage.modifier.js {
+    color: #795548;
+    color: #4CD964;
+    color: #CDDC39;
+    text-transform: uppercase;
+    // -webkit-font-smoothing: antialiased;
+}
+atom-text-editor::shadow .punctuation.terminator.statement.js, atom-text-editor::shadow
+.meta.delimiter.method.period.js, atom-text-editor::shadow .meta.delimiter.object.comma.js {
+// atom-text-editor::shadow .string.quoted.js {
+//     // color: #FFEB7D;
+//     // color: #FFCC00;
+//     // color: #8899A6;
+//     // color: #FFCE54;
+    color: #999;
+    color: #E66000;
+    color: #795548;
+    color: #B25B66;
+    color: #7F8C8D;
+    font-family: monoid-retina, hack, sans-serif;
+//     -webkit-font-smoothing: antialiased;
+}
+//
+// atom-text-editor::shadow .variable.other.property.js {
+// }
+// atom-text-editor::shadow .object.key .string.js-label.js {
+//     color: #E66000;
+// }
+//
+// atom-text-editor::shadow .entity.function.js {
+//     color: #E9573F;
+//     color: #FF4136;
+//     color: #CFDC00;
+//     color: #009090;
+//     color: #4CD964;
+//     color: #1BA1E2;
+//     color: #2196F3;
+//     // color: #007AFF;
+// }
+
+// atom-text-editor::shadow .meta.function.body {
+//     font-style: italic;
+//     // -webkit-font-smoothing: antialiased;
+//     color: #999;
+//
+// }
+// atom-text-editor::shadow .meta.function.body .support.variable.property.js {
+//     // font-style: italic;
+//     // -webkit-font-smoothing: antialiased;
+//     color: #999;
+//     color: #2196F3;
+//
+// }
+// atom-text-editor::shadow .keyword.control.def.es {
+//     color: #4FC1E9;
+//     color: #5AC8FA;
+//     color: #999;
+//     // color: #001F3F;
+//     // color: #34495E;
+//     font-style: italic;
+//     // -webkit-font-smoothing: antialiased;
+// }
+//
+// atom-text-editor::shadow .variable.object.js {
+//     color: #FFC107;
+//     // color: #C8F0F0;
+//     // color: #4CD964;
+// }
+atom-text-editor::shadow .variable.language.js {
+    color: #967ADC;
+    color: #FF9500;
+    color: #007AFF;
+    // color: #1BA1E2;
+    color: #5856D6;
+    color: #00BCD4;
+    color: #E91E63 !important;
+
+    font-weight: 800;
+    text-decoration: underline;
+    font-family: monoid-retina, hack, sans-serif;
+}
+atom-text-editor::shadow .support.constant.dom.js {
+    color: #EC87C0;
+}
+atom-text-editor::shadow .support.constant.js {
+    color: #EC87C0;
+}
+atom-text-editor::shadow .support.function.dom.js {
+    color: #EC87C0;
+    color: #2196F3;
+    color: #0074D9;
+    color: #5AC8FA;
+}
+
+
+atom-text-editor::shadow .constant.other.js, atom-text-editor::shadow .constant.language.js {
+    color: #9C27B0 !important;
+
+}
+
+// atom-text-editor::shadow .parameters.function.meta {
+//     // color: #EC87C0;
+//     font-style: italic;
+//     -webkit-font-smoothing: antialiased;
+//     // color: #fd971f !important;
+//     color: #9C27B0 !important;
+// }
+// atom-text-editor::shadow .parameters.function.meta .variable.parameter.function.es{
+//     // color: #EC87C0;
+//     font-style: italic;
+//     -webkit-font-smoothing: antialiased;
+//     // color: #fd971f !important;
+//     color: #9C27B0 !important;
+// }
+
+
+atom-text-editor::shadow .constant.language.boolean.true.js {
+    color: #F44336 !important;
+    color: #D35400 !important;
+    color: #C0392B !important;
+    color: #E74C3C !important;
+    font-weight: 800;
+
+}
+atom-text-editor::shadow .constant.language.boolean.false.js {
+    color: #673AB7 !important;
+    font-weight: 800;
+}
+
+atom-text-editor::shadow .constant.numeric.js {
+    color: #00BCD4 !important;
+    color: #009688 !important;
+    // font-weight: 800;
+    font-size: 14px;
+}
+// atom-text-editor::shadow .punctuation.separator.key-value.js {
+//     color: #fff !important;
+//     // font-weight: 800;
+// }
+//
+// atom-text-editor::shadow .delimiter.object.comma.js, atom-text-editor::shadow .punctuation.terminator.statement.js{
+//     color: #fff !important;
+//     // font-weight: 800;
+// }
+
+
+// atom-text-editor::shadow .punctuation.function.es, atom-text-editor::shadow .brace.round {
+//     // color: #656D78;
+//     // color: #CCD1D9;
+//     color: #FFFFFF;
+//     // color: #4FC1E9;
+//     font-weight: 800;
+// }
+
+
+atom-text-editor::shadow .keyword.operator.js{
+    font-family: monoid-retina, hack, arial, sans-serif;
+    // font-weight: 800;
+    color: #E91E63 !important;
+    color: #F44336 !important;
+}
+atom-text-editor::shadow .storage.type.class.todo{
+    // color: #001F3F;
+    color: #34495E;
+    font-weight: 800;
+}
+
+// atom-text-editor::shadow {
+//     // color: #001F3F;
+//     color: #34495E;
+//     color: #4CD964;
+//     font-weight: 800;
+// }
+
+
+.list-group li:not(.list-nested-item).status-added, .list-tree li:not(.list-nested-item).status-added, .list-group li.list-nested-item.status-added > .list-item, .list-tree li.list-nested-item.status-added > .list-item {
+    color: #73c990;
+    color: #4CD964;
+    // color: #E9573F;
+    color: #F44336 !important;
+}
+.status-added {
+    color: #73c990;
+    color: #F44336 !important;
+}
+
+.list-group li:not(.list-nested-item).status-modified, .list-tree li:not(.list-nested-item).status-modified, .list-group li.list-nested-item.status-modified > .list-item, .list-tree li.list-nested-item.status-modified > .list-item {
+    color: #e2c08d;
+    color: #FFC107 !important;
+}
+.status-modified {
+    color: #e2c08d;
+    color: #FFC107 !important;
+}
