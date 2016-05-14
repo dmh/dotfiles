@@ -29,7 +29,7 @@ alias gc='git commit'
 # atom
 alias a='atom .'
 alias aa='atom-beta .'
-alias sys='atom ~/dmh/sys'
+alias dd='atom ~/dmh/devnotes ~/dmh/dotfiles'
 #==================================================================
 
 # bash
@@ -41,7 +41,6 @@ alias cd2='cd ../..'
 alias cd3='cd ../../..'
 alias cd4='cd ../../../..'
 alias cd5='cd ../../../../..'
-
 #==================================================================
 
 
